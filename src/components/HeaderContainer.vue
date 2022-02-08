@@ -62,7 +62,7 @@ header {
 
                 &:hover {
                 cursor: pointer;
-                color: #d5625f
+                color: #d5625f;
                 }
             }
         }
