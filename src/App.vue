@@ -2,6 +2,8 @@
   <div id="app">
     <header-container/>
     <main-container/>
+    <results-container/>
+    <performance-box/>
     <footer-box/>
   </div>
 </template>
@@ -10,6 +12,8 @@
 import HeaderContainer from './components/HeaderContainer.vue'
 import MainContainer from './components/MainContainer.vue'
 import FooterBox from './components/FooterBox.vue'
+import ResultsContainer from './components/ResultsContainer.vue'
+import PerformanceBox from './components/PerformanceBox.vue'
 
 
 export default {
@@ -17,7 +21,9 @@ export default {
   components: {
     HeaderContainer,
     MainContainer,
-    FooterBox
+    FooterBox,
+    ResultsContainer,
+    PerformanceBox
   }
 }
 </script>
