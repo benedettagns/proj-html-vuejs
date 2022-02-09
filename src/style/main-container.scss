@@ -7,6 +7,16 @@
         margin: 0 auto;
         text-align: center;
         width: 700px; 
+
+        h1{
+            color: white;
+            padding-bottom: 30px;
+        }
+
+        p {
+            padding-top: 30px;
+            color:grey;
+        }
     }    
 }
 
@@ -48,6 +58,21 @@
                 background-color: #d3615e;
                 color: white;
             }
+        }
+    }
+}
+
+.jumbotron {
+    background: url('../assets/gym_bkgd_bw-compressor.jpg');
+    background-size: cover;
+    height: 400px;
+    
+    .jumbo-box {
+        display: flex;
+        padding-top: 150px;
+
+        .card {
+            text-align: center;
         }
     }
 }
