@@ -28,33 +28,11 @@
 
         <div class="jumbotron">
             <div class="jumbo-box">
-
-                <div class="card">
+                <div class="card" v-for="(option, index) in options" :key="index">
                     <!-- <img src="" alt=""> -->
-                    <p>Streng & Conditioning</p>
+                    <p class="option">{{option.activity}}</p>
                     <img src="../assets/divider-x-red.png" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sequi commodi veritatis facilis pariatur ad</p>
-                </div>
-
-                <div class="card">
-                    <!-- <img src="" alt=""> -->
-                    <p>Fitness & Cardio</p>
-                    <img src="../assets/divider-x-red.png" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sequi commodi veritatis facilis pariatur ad</p>
-                </div>
-
-                <div class="card">
-                    <!-- <img src="" alt=""> -->
-                    <p>Flexibility & Rest</p>
-                    <img src="../assets/divider-x-red.png" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sequi commodi veritatis facilis pariatur ad</p>
-                </div>
-
-                <div class="card">
-                    <!-- <img src="" alt=""> -->
-                    <p>Health & Diet</p>
-                    <img src="../assets/divider-x-red.png" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sequi commodi veritatis facilis pariatur ad</p>
+                    <p>{{option.description}}</p>
                 </div>
             </div>
         </div>
@@ -63,7 +41,9 @@
 
 <script>
 export default {
-    
+    props: {
+        options: Array
+    }
 }
 </script>
 

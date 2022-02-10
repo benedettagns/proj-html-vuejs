@@ -4,53 +4,24 @@
         <img src="../assets/divider-xx-red.png" alt="">
 
         <div class="box-container"> 
-            <div class="box-utenti">
+            <div class="box-utenti" v-for="(result, index) in results" :key="index">
                 <div>
-                    <img src="../assets/review_1-compressor.jpg" alt="">
+                    <img :src="result.image" alt="">
                 </div>
                 <div>
-                    <p>"The trainers at Avada Gym have helped me reach my fitness goals beyond anything I could of hoped for. I love it!"</p>
-                    <span>- Tara Smith</span>
+                    <p>{{result.review}}</p>
+                    <span>- {{result.name}}</span>
                 </div>    
             </div>
-
-            <div class="box-utenti">
-                <div>
-                    <img src="../assets/review_3-compressor-2.jpg" alt="">
-                </div>
-                <div>
-                    <p>"The atmosphere at Avada Gym is amazing, the people are even better. All in all, it is a great place to work out."</p>
-                    <span>- Simon Chel</span>
-                </div>    
-            </div>
-
-            <div class="box-utenti">
-                <div>
-                    <img src="../assets/review_2-compressor.jpg" alt="">
-                </div>
-                <div>
-                    <p>"The facilities at Avada Gym stood out to me the most. They are well maintained and have high quality equipment"</p>
-                    <span>- Jen Wirth</span>
-                </div> 
-            </div>
-
-            <div class="box-utenti">
-                <div>
-                    <img src="../assets/review_4-compressor-2.jpg" alt="">
-                </div>
-                <div>
-                    <p>"No bad things to say abut Avada Gym, they are top notch at every corner and truly take care of their customers."</p>
-                    <span>- Jeff Glum</span>
-                </div>   
-            </div>
-
-
         </div>
     </div>
 </template>
 
 <script>
 export default {
+    props: {
+        results: Array
+    }  
     
 }
 </script>

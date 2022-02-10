@@ -68,11 +68,24 @@
     height: 400px;
     
     .jumbo-box {
+        width: 1000px;
+        margin: 0 auto;
         display: flex;
         padding-top: 150px;
 
         .card {
             text-align: center;
+            margin: 15px;
+
+            .option{
+                color: white;
+                padding-bottom: 15px;
+            }
+            p {
+                padding-top:20px;
+                color: rgb(71, 71, 71);
+                font-size: 12px;
+            }
         }
     }
 }

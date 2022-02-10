@@ -12,35 +12,12 @@
             <h1>MEET OUR TRAINERS</h1>
             <img src="../assets/divider-xx-red.png" alt="">
 
-            <div class="card-container">
-                <div class="card">
-                    <img src="../assets/trainer1.jpg" alt="">
-                    <p>Ann Baker</p>
-                    <p class="job">Personal Trainer</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A rerum nihil obcaecati ipsum</p>
-
-                    <div class="social-box">
-                        <img src="../assets/instagram.png" alt="">
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="../assets/trainer3.jpg" alt="">
-                    <p>Anne Warren</p>
-                    <p class="job">Personal Trainer</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A rerum nihil obcaecati ipsum</p>
-
-                    <div class="social-box">
-                        <img src="../assets/instagram.png" alt="">
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="../assets/trainer4.jpg" alt="">
-                    <p>Peter Rice</p>
-                    <p class="job">Personal Trainer</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A rerum nihil obcaecati ipsum</p>
-                    
+            <div class="card-container"> 
+                <div class="card" v-for="(trainer, index) in trainers" :key="index">
+                    <img :src="trainer.photo" alt="">
+                    <p>{{trainer.name}}</p>
+                    <p class="job">{{trainer.role}}</p>
+                    <p>{{trainer.description}}</p>
 
                     <div class="social-box">
                         <img src="../assets/instagram.png" alt="">
@@ -57,7 +34,9 @@
 
 <script>
 export default {
-    
+    props: {
+        trainers: Array
+    }
 }
 </script>
 
