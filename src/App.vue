@@ -5,7 +5,7 @@
     <results-container :results="results"/>
     <performance-box/>
     <trainers-container :trainers="trainers"/>
-    <news-container/>
+    <news-container :articles="articles"/>
     <footer-box/>
   </div>
 </template>
@@ -99,6 +99,39 @@ export default {
           name: 'Peter Rice',
           role: 'Personal Trainer',
           description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. A rerum nihil obcaecati ipsum',
+        },
+      ], 
+
+      articles: [
+        {
+          img: '',
+          title: 'Train with free weights or your body weight?',
+          anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
+        },
+        {
+          img: '',
+          title: 'Nutritional advice that will keep you training',
+          anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
+        },
+        {
+          img: '',
+          title: 'Simple principles for you next workout',
+          anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
+        },
+        {
+          img: '',
+          title: 'To be number one, train like you are number two',
+          anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
+        },
+        {
+          img: '',
+          title: 'Top 5 mistakes every gym member makes',
+          anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
+        },
+        {
+          img: '',
+          title: 'The myths of shedding body fat explored',
+          anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
         },
       ]
     }
