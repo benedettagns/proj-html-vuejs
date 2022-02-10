@@ -57,7 +57,7 @@ export default {
 
 <style lang="scss" scoped>
 .results-container {
-    background-color: rgb(41, 40, 40);
+    background-color: #252a2d;
     text-align: center;
     
     h1 {

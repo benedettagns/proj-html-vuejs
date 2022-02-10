@@ -62,5 +62,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../style/trainers-container.scss';
+@import '../style/trainers-container.scss'
 </style>

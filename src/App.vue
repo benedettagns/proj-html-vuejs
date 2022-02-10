@@ -28,7 +28,8 @@ export default {
     FooterBox,
     ResultsContainer,
     PerformanceBox,
-    TrainersContainer
+    TrainersContainer, 
+    NewsContainer
   }
 }
 </script>
