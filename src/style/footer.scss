@@ -27,3 +27,29 @@
         color: white;
     }
 }
+
+.information {
+    background-color: #252a2d ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+
+    .info-box {
+        width: 250px;
+        margin-left: 50px;
+        line-height: 40px;
+
+        h4 {
+            color: grey;
+            padding-bottom: 15px;
+        }
+        p {
+            color: grey;
+        }
+    }
+
+    .info-img > img {
+        width: 300px;
+    }
+}
