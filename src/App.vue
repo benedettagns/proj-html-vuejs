@@ -4,6 +4,8 @@
     <main-container/>
     <results-container/>
     <performance-box/>
+    <trainers-container/>
+    <news-container/>
     <footer-box/>
   </div>
 </template>
@@ -14,6 +16,8 @@ import MainContainer from './components/MainContainer.vue'
 import FooterBox from './components/FooterBox.vue'
 import ResultsContainer from './components/ResultsContainer.vue'
 import PerformanceBox from './components/PerformanceBox.vue'
+import TrainersContainer from './components/TrainersContainer.vue'
+import NewsContainer from './components/NewsContainer.vue'
 
 
 export default {
@@ -23,12 +27,14 @@ export default {
     MainContainer,
     FooterBox,
     ResultsContainer,
-    PerformanceBox
+    PerformanceBox,
+    TrainersContainer
   }
 }
 </script>
 
-<style lang="scss">
+<style ,
+    NewsContainerlang="scss">
 @import './style/body.scss';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 </style>

@@ -23,11 +23,12 @@ export default {
 
 <style lang="scss" scoped>
 .perform-container {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(41, 40, 40);
     text-align: center;
     h1 {
         color: white;
-        padding: 30px 0;
+        padding-top: 80px;
+        padding-bottom: 20px;
     }
 
     img {
