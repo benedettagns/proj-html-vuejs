@@ -36,11 +36,16 @@ export default {
     }
     .img-container{
         margin: 0 auto;
-        width: 900px;
+        width: 1000px;
 
         img {
             width: 250px;
             margin: 20px;
+            cursor: pointer;
+
+            &:hover {
+                width: 300px;
+            }
         }
     }
 }

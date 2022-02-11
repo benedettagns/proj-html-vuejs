@@ -53,3 +53,31 @@
         width: 300px;
     }
 }
+
+.copyright-container {
+    background-color: #252a2d;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        border-right: 2px solid rgb(71, 71, 71);
+        height: 30px;
+        margin: 20px;
+        padding-right: 15px;
+        color: white;    
+    }
+
+    .social-box {
+        background-color: #d5625f;
+        border: 2px solid #d5625f;
+        width: 40px;
+        height: 40px;
+
+        img{
+            width: 30px; 
+            padding-top: 3px;
+            padding-left: 3px;
+        }
+    }
+}

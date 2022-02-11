@@ -6,7 +6,7 @@
         <div class="box-container"> 
             <div class="box-utenti" v-for="(result, index) in results" :key="index">
                 <div>
-                    <img :src="result.image" alt="">
+                    <img :src="`../assets/${result.image}`" alt="">
                 </div>
                 <div>
                     <p>{{result.review}}</p>
@@ -18,6 +18,7 @@
 </template>
 
 <script>
+
 export default {
     props: {
         results: Array

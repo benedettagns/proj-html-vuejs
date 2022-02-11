@@ -14,7 +14,7 @@
 
             <div class="card-container"> 
                 <div class="card" v-for="(trainer, index) in trainers" :key="index">
-                    <img :src="trainer.photo" alt="">
+                    <img :src="`../assets/${trainer.photo}`" alt="">
                     <p>{{trainer.name}}</p>
                     <p class="job">{{trainer.role}}</p>
                     <p>{{trainer.description}}</p>

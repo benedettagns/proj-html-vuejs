@@ -60,22 +60,22 @@ export default {
       
       results: [
         {
-          image: "./assets/review_1-compressor.jpg",
+          image: 'review_1-compressor.jpg',
           name: "Tara Smith",
           review: "The trainers at Avada Gym have helped me reach my fitness goals beyond anything I could of hoped for. I love it!", 
         },
         {
-          mage: './review_3-compressor-2.jpg',
+          mage: 'review_3-compressor-2.jpg',
           name: 'Simon Chel',
           review: 'The atmosphere at Avada Gym is amazing, the people are even better. All in all, it is a great place to work out.',
         },
         {
-          mage: './review_2-compressor.jpg',
+          mage: 'review_2-compressor.jpg',
           name: 'Jen Wirth',
           review: 'The facilities at Avada Gym stood out to me the most. They are well maintained and have high quality equipment',
         },
         {
-          mage: './review_4-compressor-2.jpg',
+          mage: 'review_4-compressor-2.jpg',
           name: 'Jeff Glum',
           review: 'No bad things to say abut Avada Gym, they are top notch at every corner and truly take care of their customers.',
         },
@@ -83,19 +83,19 @@ export default {
 
       trainers: [
         {
-          photo: '../assets/trainer1.jpg',
+          photo: 'trainer1.jpg',
           name: 'Ann Baker',
           role: 'Personal Trainer',
           description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. A rerum nihil obcaecati ipsum',
         },
         {
-          photo: '../assets/trainer3.jpg',
+          photo: 'trainer3.jpg',
           name: 'Anne Warren',
           role: 'Personal Trainer',
           description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. A rerum nihil obcaecati ipsum',
         },
         {
-          photo: '../assets/trainer4.jpg',
+          photo: 'trainer4.jpg',
           name: 'Peter Rice',
           role: 'Personal Trainer',
           description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. A rerum nihil obcaecati ipsum',
@@ -104,32 +104,32 @@ export default {
 
       articles: [
         {
-          img: '',
+          img: 'blog1.jpg',
           title: 'Train with free weights or your body weight?',
           anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
         },
         {
-          img: '',
+          img: 'blog6.jpg',
           title: 'Nutritional advice that will keep you training',
           anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
         },
         {
-          img: '',
+          img: 'trainer4.jpg',
           title: 'Simple principles for you next workout',
           anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
         },
         {
-          img: '',
+          img: 'blog4.jpg',
           title: 'To be number one, train like you are number two',
           anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
         },
         {
-          img: '',
+          img: 'trainer3.jpg',
           title: 'Top 5 mistakes every gym member makes',
           anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
         },
         {
-          img: '',
+          img: 'trainer1.jpg',
           title: 'The myths of shedding body fat explored',
           anteprima: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttiror suscipit, sapien purus aliquet risus.',
         },

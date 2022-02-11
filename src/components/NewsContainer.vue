@@ -5,7 +5,7 @@
 
         <div class="news-container">
             <div class="article-box" v-for="(article, index) in articles" :key="index">
-                <img :src="article.img" alt="">
+                <img :src="`../assets/${article.img}`" alt="">
                 <p> {{article.title}} </p>
                 <p> {{article.anteprima}} </p>
             </div>    

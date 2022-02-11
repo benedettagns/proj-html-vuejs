@@ -41,6 +41,14 @@
             </div>
         </div>
 
+        <div class="copyright-container">
+            <div>© Copyright 2012 - 2020</div>
+            <div>Avada Theme by Theme Fusion</div>
+            <div>All Right Reserved</div>
+            <div>Powered by WordPress</div>
+            <div class="social-box"><img src="../assets/instagram.png" alt=""></div>
+        </div>
+
     </footer>
 </template>
 
